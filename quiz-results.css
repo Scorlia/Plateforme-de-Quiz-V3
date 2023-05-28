@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Score styles */
+  .score {
+    margin-bottom: 40px;
+  }
+  
+  .score p {
+    font-size: 18px;
+  }
+  
+  .score-value {
+    font-weight: bold;
+  }
+  
+  /* Results summary styles */
+  .results-summary {
+    margin-bottom: 40px;
+  }
+  
+  .results-summary p {
+    margin-bottom: 10px;
+  }
+  
+  .results-summary li {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  

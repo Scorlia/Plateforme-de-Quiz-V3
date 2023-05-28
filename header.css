@@ -1,0 +1,27 @@
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  header ul li a:hover {
+    color: #ff0000;
+  }
+  

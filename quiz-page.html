@@ -1,0 +1,48 @@
+<!-- quiz-page.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Page</title>
+  <link rel="stylesheet" href="quiz-page.css">
+</head>
+<body>
+    <include src="header.html"></include>
+
+  <main class="container">
+    <h1>Titre du Quiz</h1>
+    <p>Description du Quiz</p>
+
+    <!-- Question container -->
+    <div class="question-container">
+      <h2>Question 1</h2>
+      <p>Contenu de la question</p>
+      
+      <!-- Answer options -->
+      <ul class="answer-options">
+        <li>
+          <input type="radio" name="question1" id="option1">
+          <label for="option1">Option 1</label>
+        </li>
+        <li>
+          <input type="radio" name="question1" id="option2">
+          <label for="option2">Option 2</label>
+        </li>
+        <!-- Add more answer options here -->
+      </ul>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button class="previous-button">Précédent</button>
+      <button class="next-button">Suivant</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Plateforme de Quiz - Tous droits réservés</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="create-quiz.css">
+  <title>Créer un quiz</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Créer un quiz</h1>
+    <form>
+      <label for="quiz-title">Titre du quiz</label>
+      <input type="text" id="quiz-title" name="quiz-title" placeholder="Entrez le titre du quiz">
+
+      <h2>Questions</h2>
+      <div class="question-container">
+        <div class="question">
+          <label for="question-1">Question 1</label>
+          <input type="text" id="question-1" name="question-1" placeholder="Entrez la question">
+
+          <label for="answer-1">Réponse 1</label>
+          <input type="text" id="answer-1" name="answer-1" placeholder="Entrez la réponse">
+
+          <label for="answer-2">Réponse 2</label>
+          <input type="text" id="answer-2" name="answer-2" placeholder="Entrez la réponse">
+
+          <button class="add-answer">Ajouter une réponse</button>
+        </div>
+      </div>
+
+      <button class="add-question">Ajouter une question</button>
+
+      <button type="submit">Enregistrer le quiz</button>
+    </form>
+  </div>
+</body>
+
+</html>
